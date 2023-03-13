@@ -1,0 +1,396 @@
+body {
+    background-color: rgb(8, 0, 0);
+    font-family: 'Anton', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+header {
+    background-color: rgb(17, 17, 17);
+    width: 1200px;
+    margin: 0 auto;
+ 
+    
+}
+
+.container {
+    background-color: rgb(17, 17, 17);
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(178, 178, 178);
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: rgb(253, 0, 0);
+    color: white;
+}
+
+.nav_buttons {
+    display: flex;
+}
+
+.nav_contacts_socials:hover .contacts_info{
+    background-color: aliceblue;
+}
+
+.contacts_info {
+    width: 150px;
+    height: 100px;
+    background-color: rgb(46, 46, 46);;
+    position: absolute;
+    top: 40px;
+    right: 160px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.nav_social {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 15px;
+    width: 35px;
+    transition: all 0.3s ease;
+}
+
+.nav_social:hover {
+    background-color: red;
+}
+
+.nav_contact {
+    margin-top: -10px;
+    text-align: center;
+    font-size: 11px;
+}
+
+
+.inro_content {
+    position: relative;
+}
+
+.intro_img {
+    width: 1200px;
+    opacity: 0.7;
+}
+
+.intro_title {
+    font-size: 50px;
+    bottom: 40%;
+    left: 150px;
+    color: white;
+    position: absolute;
+}
+
+.intro_title span {
+    font-size: 60px;
+    color: red;
+}
+
+.subtitle {
+    font-size: 35px;
+    bottom: 30%;
+    left: 150px;
+    color: white;
+    position: absolute;
+}
+
+.subtitle span {
+    color: red;
+}
+
+.services {
+    position: relative;
+    margin-top: 40px;
+}
+
+
+.services_title {
+    text-align: center;
+    color: white;
+}
+
+.services_boxes {
+    display: flex;
+    background-color: rgb(17, 17, 17);
+    height: 350px;
+    justify-content: space-around
+}
+
+.services_box {
+    border-radius: 10px;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.services_box:hover {
+    scale: 1.05;
+}
+
+.services_box:hover  .services_box_live_img{
+    opacity: 1;
+}
+
+.services_box:hover .services_box_title{
+    opacity: 0;
+}
+
+.services_box:hover .services_box_subtitle{
+    opacity: 0;
+}
+
+.services_box:hover .services_box_img{
+    opacity: 0;
+}
+
+.services_box_img {
+    margin: 20px 35%;
+    width: 50px;
+}
+
+.services_box_live_img {
+    margin-top: -82px;
+    opacity: 0;
+    margin-left: 12px;
+    border-radius: 10px;
+    width: 270px;
+    transition: all 0.7s ease;
+}
+
+.services_box_title {
+    color: black;
+    margin-top: -200px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 23px;
+}
+
+.services_box_subtitle {
+    color: black;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+
+
+.about_content {
+    position: relative;
+    height: 800px;
+    background-color: black;
+}
+
+.tatoo_png1 {
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+.tatoo_png2 {
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+.tatoo_png3 {
+    width: 150px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+
+.tatoo_png4 {
+    width: 150px;
+    position: absolute;
+    bottom: 200px;
+    left: 180px;
+}
+
+.tatoo_png5 {
+    width: 150px;
+    position: absolute;
+    bottom: 200px;
+    right: 180px;
+}
+
+.tatoo_png6 {
+    width: 150px;
+    position: absolute;
+    top: 480px;
+    left: 510px;
+}
+
+.about_text1 {
+    width: 400px;
+    text-align: center;
+    top: 220px;
+    left: 70px;
+    font-size: 26px;
+    position: absolute;
+}
+
+.about_text1 span,
+.about_text2 span,
+.about_text3 span,
+.about_text4 span,
+.about_text5 span {
+    color: red;
+}
+
+.about_text2 {
+    width: 400px;
+    text-align: center;
+    top: 220px;
+    right: 70px;
+    font-size: 26px;
+    position: absolute;
+}
+
+.about_text3 {
+    width: 400px;
+    text-align: center;
+    top: 370px;
+    left: 400px;
+    font-size: 26px;
+    position: absolute;
+}
+
+.about_text4 {
+    width: 400px;
+    text-align: center;
+    bottom: 50px;
+    left: 70px;
+    font-size: 26px;
+    position: absolute;
+}
+
+.about_text5 {
+    width: 400px;
+    text-align: center;
+    bottom: 50px;
+    right: 70px;
+    font-size: 26px;
+    position: absolute;
+}
+
+
+
+
+.our_works {
+    margin-top: 40px;
+}
+
+.works_title {
+    text-align: center;
+    color: white;
+}
+
+.works_content {
+    height: 600px;
+    background-color: rgb(17, 17, 17);
+}
+
+.work_boxes {
+    margin: 40px 0;
+    display: flex;
+    justify-content: start;
+}
+
+.work_box {
+    position: relative;
+    margin-left: 20px;
+   
+}
+
+.work_box:hover .work_box_img{
+    opacity: 0.2;
+    
+}
+
+.work_box:hover .tatoo_info{
+    opacity: 1;
+    
+}
+
+.work_box_img{
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.tatoo_info {
+    opacity: 0;
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    top: 20px;
+    left: 15px;
+    transition: all 0.4s ease-in-out;
+}
+
+.tatoo_info a {
+    color: red;
+}
+
+footer {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.socials {
+    padding: 20px 0;
+}
+
+.social_icon {
+    height: 40px;
+    background: #ffaf0100;
+    border-radius: 15px;
+    padding: 5px;
+    transition: all .3s;
+
+}
+
+.social_icon:hover {
+    background-color: red;
+}
+
+.contact {
+    color: white;
+    font-size: 20px;
+}
